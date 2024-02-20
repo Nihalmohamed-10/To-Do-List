@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./to_do.css">
+</head>
+<body>
+    <section class="main_section">
+       <div class="sub_div">
+            <input id="input_area" type="text">
+            <button id="add_button" onclick="addTask()" type="button">Add</button>
+            <div>
+                <button id="completed_task" onclick="showCompletedTasks()" type="button">Completed</button>
+                <button id="pending_task" onclick="showPendingTasks()" type="button">Pending</button>
+                <button id="all_task" onclick="showAllTasks()" type="button">All</button>
+            </div>
+       </div>
+       
+        <div class="disply">
+            <div id="output">
+                
+            </div>
+        </div>
+        <script src="./to_do1.js"></script>
+       
+    </section>
+</body>
+</html>
+
+
